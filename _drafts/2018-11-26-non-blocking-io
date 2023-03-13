@@ -1,0 +1,22 @@
+Process Limits on Mac: https://support.apple.com/en-us/HT3854
+
+
+Why too many threads is a problem?
+1. threads/processes share memory resources. Good practice to limit number of threads per process.
+2. Context switching is expensive.
+3. It doesn't help. Competing for the same resources.
+
+
+Threaded Server vs. Evented Server
+Threaded Server: One thread to handle one request from start to end.
+Evented Server: A event is dispatched and some handler will pick it up later.
+
+CPU intensive task: non of these models scale. Threaded server is better. everyone have a equal chance running their hashcode.
+IO intensive task: then evented server scales better.
+For
+
+
+For the purpose of scheduling, a thread is in one of 3 states:
+Running
+Ready: waiting for CPU time
+Blocked: waiting for some other event (disk I/O, incoming network packet, etc.)

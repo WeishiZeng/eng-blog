@@ -1,0 +1,2518 @@
+
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/assets/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/assets/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/assets/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Jekyll, NexT, Engineering" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="keywords" content="Jekyll, NexT, Engineering">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Weishi's Engineering Blog">
+<meta property="og:url" content="http://localhost:5555/">
+<meta property="og:site_name" content="Weishi's Engineering Blog">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Weishi's Engineering Blog">
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://localhost:5555/"/>
+
+
+
+
+
+  <title>Weishi's Engineering Blog</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+
+  <div class="container sidebar-position-left page-home ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Weishi's Engineering Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">How's Cali treating you?</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+
+
+<section id="posts" class="posts-expand">
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:5555/2018/09/21/many-ways-to-write-a-wrong-binary-search0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Weishi Zeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weishi's Engineering Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/2018/09/21/many-ways-to-write-a-wrong-binary-search0/" itemprop="url">
+                Binary Search Algorithm
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-09-21T15:43:02-07:00">
+                2018-09-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/09/21/many-ways-to-write-a-wrong-binary-search0/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/2018/09/21/many-ways-to-write-a-wrong-binary-search0/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1 id="binary-search-algorithm">Binary Search Algorithm</h1>
+<h2 id="summary">Summary</h2>
+<h3 id="variants">Variants</h3>
+<ul>
+  <li>Variant 1:
+looking for target itself</li>
+  <li>Variant 2:
+looking for target range</li>
+  <li>Variant 3:
+looking for elements closest to target.</li>
+</ul>
+
+
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/21/many-ways-to-write-a-wrong-binary-search0/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+          <div class="post-eof"></div>
+        
+      
+    </footer>
+  </article>
+
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:5555/2018/05/24/markdown-cheat-sheet/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Weishi Zeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weishi's Engineering Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/2018/05/24/markdown-cheat-sheet/" itemprop="url">
+                Markdown Reference
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-24T17:57:02-07:00">
+                2018-05-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/24/markdown-cheat-sheet/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/2018/05/24/markdown-cheat-sheet/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1 id="markdown-reference">Markdown Reference</h1>
+
+
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/24/markdown-cheat-sheet/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+          <div class="post-eof"></div>
+        
+      
+    </footer>
+  </article>
+
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:5555/2017/01/05/reference-counting-in-ios-vs-garbage/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Weishi Zeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weishi's Engineering Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/2017/01/05/reference-counting-in-ios-vs-garbage/" itemprop="url">
+                Reference Counting in iOS vs. Garbage Collection in Android
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-05T14:28:00-08:00">
+                2017-01-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/01/05/reference-counting-in-ios-vs-garbage/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/2017/01/05/reference-counting-in-ios-vs-garbage/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <div dir="ltr" style="text-align: left;" trbidi="on">Automatic Reference Counting (ARC) vs. Tracing Garbage Collection (GC)<br /><br />http://softwareengineering.stackexchange.com/questions/285333/how-does-garbage-collection-compare-to-reference-counting<br /><br />http://www.cubrid.org/blog/dev-platform/understanding-java-garbage-collection/<br /><br /><div style="background-color: white; border: 0px; clear: both; color: #242729; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 15px; margin-bottom: 1em; padding: 0px;">Automatic Reference counting or ARC, is a form of garbage collection in which objects are deallocated once there are no more references to them, i.e. no other variable refers to the object in particular. Each object, under ARC, contains a reference counter, stored as an extra field in memory, which is incremented every time you set a variable to that object (i.e. a new reference to the object is created), and is decremented every time you set a reference to the object to nil/null, or a reference goes out of scope (i.e. it is deleted when the stack unwinds), once the reference counter goes down to zero, the object takes care of deleting itself, calling the destructor and freeing the allocated memory. This approach has a significant weakness, as we shall see below.</div><div style="background-color: white; border: 0px; clear: both; color: #242729; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 15px; margin-bottom: 1em; padding: 0px;">"There's no need to worry about memory management because it's all taken care of for you by reference counting," that's actually a misconception you still do need to take care to avoid certain conditions, namely circular references, in order for ARC to function correctly. A circular reference is when an object A holds a strong reference to an object B, which itself holds a strong reference to the same object A, in this situation neither object is going to be deallocated because in order for A to be deallocated its reference counter must be decremented to zero, but at least one of those references is object B, for object B to be deallocated, its reference counter must also be decremented to 0, but at least one of those references is object A, can you see the problem? ARC solves this by allowing the programmer to give compiler hints about how different object references should be treated, there are two types of references: strong references and weak references. Strong references are, as I mentioned above, a type of reference which prolongs the life of the referenced object (increments its reference counter), weak references are a type of reference which does not prolong the life of an object (that is, it does not increment the object's reference counter), but that would mean the referenced object could get deallocated and you'd would be left with an invalid reference pointing to junk memory. In order for this situation to be avoided, the weak reference is set to a safe value (e.g. nil in Objective-C) once the object is deallocated, thus the object has an extra responsibility of keeping track of all weak references and setting them to a safe value once it deletes itself. Weak references are usually used in a child-parent object relation, the parent holds a strong reference to all it's child objects, whereas the child objects hold a weak reference to the parent, the rationale being that in most cases if you no longer care about the parent object, you most likely no longer care about the child objects either.</div><div style="background-color: white; border: 0px; clear: both; color: #242729; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 15px; margin-bottom: 1em; padding: 0px;">Tracing garbage collection (i.e. what is most often referred to as simply garbage collection) involves keeping a list of all root objects (i.e. those stored in global variables, the local variables of the main procedure, etc) and tracing which objects are reachable (marking each object encountered) from those root objects. Once the garbage collector has gone through all the objects referenced by the root objects, the GC now goes through every allocated object, if it is marked as reachable it stays in memory, if it is not marked as reachable it is deallocated, this is known as the mark-and-sweep algorithm. This has the advantage of not suffering from the circular reference problem as: if neither the mutually referenced object A and object B are referenced by any other object reachable from the root objects, neither object A nor object B are marked as reachable and are both deallocated. Tracing garbage collectors run in certain intervals pausing all threads, which can lead to inconsistent performance (sporadic pauses). The algorithm described here is a very basic description, modern GC's are usually much more advanced using an object generation system, tri-color sets etc, and also perform other tasks such as defragmentation of the program's memory space by moving the objects to a contiguous storage space, this is the reason why GC'ed languages such as C# and Java do not allow pointers. One significant weakness of tracing garbage collectors is that class destructors are no longer deterministic, that is the programmer cannot tell when an object is going to be garbage collected in-fact GC'ed languages do not even allow the programmer to specify a class destructor, thus classes can no longer be used to encapsulate the management of resources such as file handles, database connections, etc. The responsibility is left on the programmer to close open files, database connections manually, hence why languages such as Java have a finally keyword (in the try,catch block) to make sure the cleanup code is always executed before the stack unwinds, whereas in C++ (no GC) such resources are handled by a wrapper object (allocated on the stack) which acquires the resource in the constructor and releases it in the destructor, which is always called as the object is removed from the stack.</div><div style="background-color: white; border: 0px; clear: both; color: #242729; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 15px; margin-bottom: 1em; padding: 0px;">As for performance, both have performance penalties. Automatic reference counting delivers a more consistent performance, no pauses, but slows down your application as a whole as every assignment of an object to a variable, every deallocation of an object, etc, will need an associated incrementation/decrementation of the reference counter, and taking care of reassigning the weak references and calling each destructor of each object being deallocated. GC does not have the performance penalty of ARC when dealing with object references; however, it incurs pauses while it is collecting garbage (rendering unusable for real-time processing systems) and requires a large memory space in order for it to function effectively such that it is not forced to run, thus pausing execution, too often.</div><div style="background-color: white; border: 0px; clear: both; color: #242729; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 15px; margin-bottom: 1em; padding: 0px;">As you can see both have their own advantages and disadvantages, there is no clear cut ARC is better or GC is better, both are compromises.</div><div style="background-color: white; border: 0px; clear: both; color: #242729; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 15px; margin-bottom: 1em; padding: 0px;"><strong style="border: 0px; margin: 0px; padding: 0px;">PS:</strong>&nbsp;ARC also becomes problematic when objects are shared across multiple threads requiring atomic incrementation/decrementation of the reference counter, which itself presents a whole new array of complexities and problems. This should answer your question as to "why would anyone use garbage collection".</div></div>
+
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/01/05/reference-counting-in-ios-vs-garbage/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+          <div class="post-eof"></div>
+        
+      
+    </footer>
+  </article>
+
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:5555/2016/08/31/todo-list/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Weishi Zeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weishi's Engineering Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/2016/08/31/todo-list/" itemprop="url">
+                TODO List
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-08-31T23:37:00-07:00">
+                2016-08-31
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/08/31/todo-list/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/2016/08/31/todo-list/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <div dir="ltr" style="text-align: left;" trbidi="on">TODO<br /><br />1. Reference counting in iOS vs Garbage Collection in Android<br />2.<br /><div class="p1">syncronized key word, (monitor lock)</div><div class="p2"><br /></div><div class="p2">singleton&nbsp;</div><div class="p1">volatile keyword</div><div class="p2"><br /></div><div class="p1">singleton with param</div><ul class="ul1"><li class="li1">getInstance(Context context)</li><li class="li1">getInstance(null)</li></ul><br /><div class="p1">ENUM<br /><br />unloading of class: why in android code, you shouldn't rely on static class variables.<br />https://docs.oracle.com/javase/specs/jls/se8/html/jls-12.html#jls-12.7<br /><br /></div></div>
+
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/08/31/todo-list/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+          <div class="post-eof"></div>
+        
+      
+    </footer>
+  </article>
+
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:5555/2016/08/14/usage-of-java-keyword-final-in-android_98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Weishi Zeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weishi's Engineering Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/2016/08/14/usage-of-java-keyword-final-in-android_98/" itemprop="url">
+                Java Nested Class - (Original Post: Usage of java keyword "final" in Android)
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-08-14T23:32:00-07:00">
+                2016-08-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/08/14/usage-of-java-keyword-final-in-android_98/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/2016/08/14/usage-of-java-keyword-final-in-android_98/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <div dir="ltr" style="text-align: left;" trbidi="on"><h2 style="text-align: left;">Java Nested Class</h2><pre class="prettyprint">class OuterClass {<br />    ...<br />    static class StaticNestedClass {<br />        ...<br />    }<br />    class InnerClass {<br />        ...<br />    }<br />}</pre><h3 style="text-align: left;">1. Static Nested Class</h3><h4 style="text-align: left;"><b>Intuition</b>:</h4>Just like a top level class, nested for packaging convenience.<br /><h4 style="text-align: left;">Constructor:</h4><pre class="prettyprint" style="text-align: left;">OuterClass.StaticNestedClass nestedObject = new OuterClass.StaticNestedClass();<br /></pre><h4 style="text-align: left;">Consequences:</h4>&nbsp; &nbsp; Enclosing Class Access:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Can only direct access outer class static members. (Like any other class accessing OuterClass.java)<br />&nbsp; &nbsp; Members:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Can define both static/non-static members. (members: fields + methods.)<br /><h4 style="text-align: left;">Usage:</h4><pre class="prettyprint">//like top-level class, more power to define, less power to access<br />static class StaticNestedClass {<br />    private Integer instanceField = 1;<br />    private static String staticField = outer_static_field;<br />    public static void staticMethod() {<br />        String a = outer_static_field;<br />    }<br />    public void instanceMethod() {<br />        String a = outer_static_field;<br />        //String b = outer_instance_field;  //ERROR: cannot reference non-static field<br />    }<br />}</pre><h3 style="text-align: left;">2. Inner Class</h3><h4 style="text-align: left;"><b>Intuition</b>:</h4>Like a instance member, "belongs to" an outer class instance.<br /><h4 style="text-align: left;">Constructor:</h4><pre class="prettyprint" style="text-align: left;">OuterClass.InnerClass innerObject = outerObject.new InnerClass();<br /></pre>Consequences:<br />&nbsp; &nbsp; Enclosing Class Access:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Direct access to all outer class members. Just like any method in outer class.<br />&nbsp; &nbsp; Members:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Can NOT define any static members. Since it is associated with an instance.<br /><h4 style="text-align: left;">Usage:</h4><pre class="prettyprint">//Like a instance member, "belongs to" an outer class instance.<br />class InnerClass {<br /><br />    private String inner_instance_field = "inner_instance_field";<br /><br />    public InnerClass () {}<br /><br />    public void get_outer_member () { //can access any outer member<br />        String a = outer_static_field;<br />        String b = outer_private_static_method();<br />        String c = outer_instance_field;<br />        inner_instance_field = "";<br />    }<br /><br />    //COMPILE ERROR: no static member allowed<br />    //public interface inner_interface {};  //an interface is an effective static member<br />    //public static String get_static_instance_field () {}<br />    //private static String static_field = "static_field";<br />}</pre><h3 style="text-align: left;">2.1. Local Class</h3><h4 style="text-align: left;"><b>Intuition</b>:</h4>Defined inside a block (a method, a if block, a for loop). The scope of the class is its enclosing block. <br />A special case of inner class. Thus no static member, a rule inherited from inner class.<br /><h4 style="text-align: left;">Constructor:</h4><h4 style="text-align: left;"> Consequences:</h4>&nbsp; &nbsp; Enclosing Class Access:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Direct access to all outer class members. Just like any method in outer class. <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;But for local classes in static contexts, can only refer to static members of the enclosing class.  "Non-static member cannot be referenced from a static context" this rule always applies.<br />&nbsp; &nbsp; Members:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Can NOT define any static members. EVEN IF it's inside a static block.<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Only exception is for static final String/primitive. As they are stored like a constant. <br /><pre class="info">A local class can have static members provided that they are constant variables.<br />(A constant variable is a variable of primitive type or type String that is declared<br />final and initialized with a compile-time constant expression.<br />A compile-time constant expression is typically a string or an arithmetic expression<br />that can be evaluated at compile time.<br />Note: If a primitive type or a string is defined as a constant and the value is known at<br />compile time, the compiler replaces the constant name everywhere in the code with its value.<br />This is called a compile-time constant. If the value of the constant in the outside world changes<br />(for example, if it is legislated that pi actually should be 3.975),<br />you will need to recompile any classes that use this constant to get the current value.<br /></pre><br />&nbsp; &nbsp; Local Variable Access:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Can access local variables or method parameters that is final.  <br /><pre class="info">A local class can use the local variables, method parameters, <br />and even exception parameters that are in its scope, <br />but only if those variables or parameters are declared final. <br />This is because the lifetime of an instance of a local class can be <br />much longer than the execution of the method in which the class is defined. <br />For this reason, a local class must have a private internal copy of <br />all local variables it uses (these copies are automatically generated by the compiler). <br />The only way to ensure that the local variable and the private copy <br />are always the same is to insist that the local variable is final.<br /></pre>Usage:<br /><pre class="prettyprint" style="text-align: left;">  <br />{<br />    class LocalClass {<br />        //can access outer member<br />        String a = outer_instance_field;<br />        String b = outer_static_field;<br /><br />        //static String c = "";  //ERROR: no static allowed<br />        //final static String d ; //ERROR: not a compile-time constant<br />        final static String d = ""; //a constant known at compile time<br />    }<br />    //static class StaticLocalClass {} //ERROR: local class cannot be static, regardless where.<br />}<br /><br />static {  //this is a static context<br />    //static class StaticLocalClass {} //ERROR: local class cannot be static, even if in static context<br />    class LocalClass {<br />        //can access outer member<br />        //String a = outer_instance_field; //ERROR: non-static cannot be referenced from static context<br />        String b = outer_static_field;<br /><br />        //static String c = "";  //ERROR: no static allowed<br />        //final static String d ; //ERROR: not a compile-time constant<br />        final static String d = ""; //a constant known at compile time<br />    }<br />}<br /><br />public void outer_instance_method(Object method_param) {<br />    String outer_instance_method_local_var = "";<br />    class LocalClass { //local class at non-static context<br />        String f = "";   //can have non-static member<br /><br />        /*<br />        A local class can have static members provided that they are constant variables.<br />        (A constant variable is a variable of primitive type or type String that is declared<br />        final and initialized with a compile-time constant expression.<br />        A compile-time constant expression is typically a string or an arithmetic expression<br />        that can be evaluated at compile time.<br />        Note: If a primitive type or a string is defined as a constant and the value is known at<br />        compile time, the compiler replaces the constant name everywhere in the code with its value.<br />        This is called a compile-time constant. If the value of the constant in the outside world changes<br />        (for example, if it is legislated that pi actually should be 3.975),<br />        you will need to recompile any classes that use this constant to get the current value.<br />         */<br />        //final static Object d = new NestedClassTest(); //ERROR: this is not a compile time constant<br /><br />        final static int e = 5;  //need to be string or int. need to know it at compile time<br /><br />        String a = outer_instance_field;<br />        String b = outer_static_field;<br />        String c = outer_instance_method_local_var; //outer_instance_method_local_var need to be final<br /><br />        Object abc = method_param; //can access final method param<br /><br />        private void local_method() {<br />            Object d = method_param; //can access final method param<br /><br />            //outer_instance_method_local_var = "";  //ERROR: need to be final<br />            //method_param = ""; //ERROR: need to be final<br /><br />            outer_instance_field = ""; //no problem interact with outer class field<br />            outer_static_field = "";   //can access static or non-static<br /><br />            LocalClass a = new LocalClass();<br />        }<br />    }<br /><br />    //a local class is valid only within the scope defined by its enclosing block.<br />    //But the local class has access to outer class members.<br />    LocalClass a = new LocalClass();<br />    /*<br />    A local class can use the local variables, method parameters,<br />    and even exception parameters that are in its scope,<br />    but only if those variables or parameters are declared final.<br />    This is because the lifetime of an instance of a local class can be<br />    much longer than the execution of the method in which the class is defined.<br />    For this reason, a local class must have a private internal copy of<br />    all local variables it uses (these copies are automatically generated by the compiler).<br />    The only way to ensure that the local variable and the private copy<br />    are always the same is to insist that the local variable is final.<br />     */<br />    outer_static_field2 = a; //here, a local class instance outlives local method scope<br />    a.local_method();<br />}<br /></pre><h3 style="text-align: left;">2.2. Anonymous Class</h3><h4 style="text-align: left;"><b>Intuition</b>:&nbsp;</h4>&nbsp;Local class without a name.<br /><h4 style="text-align: left;">Constructor:</h4><pre class="prettyprint">//implementing interface<br />new InterfacName () { /*class-body*/ }<br /><br />//extending class<br />new ClassName ( [ argument-list ] ) { /*class-body*/ }<br /></pre>Consequences: &nbsp; &nbsp;<br />&nbsp; &nbsp; Enclosing Class Access:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Direct access to all outer class members. Just like local class. <br />&nbsp; &nbsp; Members:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Can NOT define any static members. <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Only exception is for static final String/primitive. As they are stored like a constant. <br />&nbsp; &nbsp; Local Variable Access:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Can access local variables or method parameters that is final. <br />Usage:  <br /><pre class="prettyprint">class Executor {public static void execute(Runnable r){r.run();r.run2();}}<br />class BaseTracker {public void track(Object obj){}}<br />interface Runnable {<br />    void  run();  //abstract method<br />    default void run2(){};  //extension method<br />}<br /><br />class Tracker extends BaseTracker{<br />    private String outer_class_var = "";<br /><br />    //anonymous class<br />    public void track1(final Object event) {<br />        Executor.execute(new Runnable() {<br />            //static String a = ""; //ERROR: no static allowed<br />            final static String b = ""; //constant OK<br />            String c = outer_class_var;   //compiler create a package-level getter for enclosing class's private variables<br /><br />            @Override<br />            public void run() {<br />                Tracker.super.track(event);  //Tracker.super refers to enclosing class's super class<br />                //super.track(event); //ERROR: cannot resolve<br />                //BaseTracker.track(event);  //ERROR: can only reference static method<br />            }<br />        });<br />    }<br /><br />    //local class<br />    public void track2(final Object event) {<br />        //anonymous class translated into local class<br />        class TrackerRunnable implements Runnable {<br />            //@Override<br />            public void run(){<br />                //super need to be in a non-static context<br /><br />                System.out.println(this.toString()); //this refers to the TrackerRunnable instance<br />                System.out.println(super.toString()); //super defaults to the same instance!!!<br /><br />                Tracker.super.track(event);  //Tracker.super refers to BaseTracker<br />                Runnable.super.run2(); //Runnable.super refers to Runnable<br /><br />                //super.track(event); //ERROR: cannot resolve, super refers to this<br />                //BaseTracker.track(event);  //ERROR: can only reference static method, .track() is instance method<br />            }<br />        }<br />        Executor.execute(new TrackerRunnable());<br />    }<br /><br />    public static void main(String... args) {<br />        new Tracker().track2("");<br />    }<br />}<br /></pre>Reference: <a href="http://docstore.mik.ua/orelly/java-ent/jnut/ch03_13.htm">Java in a Nutshell: How Inner Classes Work</a><br /><br />TODO:  final keyword:<br />1. class - cannot be subclassed<br />2. method - cannot be overridden<br />3. variable - cannot be assigned more than once<br />Java memory model: stack, heap,<br />synthetic copy<br />dp/dip 是个长度单位。  </div>
+
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/08/14/usage-of-java-keyword-final-in-android_98/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+          <div class="post-eof"></div>
+        
+      
+    </footer>
+  </article>
+
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:5555/2016/07/21/function-foo-syntaxhighlighter/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Weishi Zeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weishi's Engineering Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/2016/07/21/function-foo-syntaxhighlighter/" itemprop="url">
+                Syntax Highlighter With Blogger
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-07-21T14:24:00-07:00">
+                2016-07-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/07/21/function-foo-syntaxhighlighter/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/2016/07/21/function-foo-syntaxhighlighter/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert"></script>
+
+
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/21/function-foo-syntaxhighlighter/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+          <div class="post-eof"></div>
+        
+      
+    </footer>
+  </article>
+
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:5555/2016/07/19/wildcard-and-type-parameter/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Weishi Zeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weishi's Engineering Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/2016/07/19/wildcard-and-type-parameter/" itemprop="url">
+                Wildcard and Type Parameter - ? extends Number
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-07-19T16:24:00-07:00">
+                2016-07-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/07/19/wildcard-and-type-parameter/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/2016/07/19/wildcard-and-type-parameter/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <div dir="ltr" style="text-align: left;" trbidi="on"><pre style="background-color: white;"><pre style="font-family: Menlo; font-size: 9pt;"></pre></pre><script src="https://gist.github.com/WeishiZeng/1bfc6e169ce466028553054a4adeb95b.js"></script>So,<br /><b>Integer</b> subclassed <b>Number</b>, but <b>List&lt;Integer&gt;</b><integer> is treated as a different class as to <b>List&lt;Number&gt;.&nbsp;</b></integer><br /><integer><number>Thus the following "? extends" is required in</number></integer><br /><integer><number><br /></number></integer>sumOfList(List&lt;? extends Number&gt; list)</div>
+
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/19/wildcard-and-type-parameter/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+          <div class="post-eof"></div>
+        
+      
+    </footer>
+  </article>
+
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:5555/2015/01/21/constructor-for-abstract-class-java/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Weishi Zeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weishi's Engineering Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/2015/01/21/constructor-for-abstract-class-java/" itemprop="url">
+                constructor for abstract class - java
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-01-21T15:19:00-08:00">
+                2015-01-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2015/01/21/constructor-for-abstract-class-java/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/2015/01/21/constructor-for-abstract-class-java/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <div dir="ltr" style="text-align: left;" trbidi="on">I understand an abstract class as a class that cannot be instantiated.<br />Then why can it have a constructor?<br /><br />1. the constructor should be protected. (public is useless since it's not gonna be instantiated. can only be called by subclasses' super())<br />2. use it to initialize abstract superclass fields.<br /><br /><span style="background-color: white; color: #222222; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px; line-height: 19.5px;">"In any case, don't forget that if you don't define a constructor, then the compiler will automatically generate one for you (this one is public, has no argument, and does nothing)."</span><br /><span style="background-color: white; color: #222222; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px; line-height: 19.5px;">-</span><span style="color: #222222; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 15px; line-height: 19.5px;">http://stackoverflow.com/questions/260666</span></span><br /><br /><br /><br />"<span style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.2000007629395px;">If a constructor does not explicitly invoke a superclass constructor, the Java compiler automatically inserts a call to the no-argument constructor of the superclass. If the super class does not have a no-argument constructor, you will get a compile-time error.&nbsp;</span><code style="font-family: Monaco, Courier, 'Courier New'; font-size: 13px; line-height: 19.2000007629395px;">Object</code><span style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.2000007629395px;">&nbsp;</span><i style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.2000007629395px;">does</i><span style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.2000007629395px;">&nbsp;have such a constructor, so if&nbsp;</span><code style="font-family: Monaco, Courier, 'Courier New'; font-size: 13px; line-height: 19.2000007629395px;">Object</code><span style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19.2000007629395px;">&nbsp;is the only superclass, there is no problem.</span>" -http://docs.oracle.com/javase/tutorial/java/IandI/super.html</div>
+
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2015/01/21/constructor-for-abstract-class-java/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+          <div class="post-eof"></div>
+        
+      
+    </footer>
+  </article>
+
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:5555/2015/01/20/polymorphism-variable-shadowing/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Weishi Zeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weishi's Engineering Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/2015/01/20/polymorphism-variable-shadowing/" itemprop="url">
+                Polymorphism, variable shadowing/hiding
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-01-20T16:59:00-08:00">
+                2015-01-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2015/01/20/polymorphism-variable-shadowing/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/2015/01/20/polymorphism-variable-shadowing/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <div dir="ltr" style="text-align: left;" trbidi="on"><div><span style="color: #222222; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="background-color: white; font-size: 13px; line-height: 17.5499992370605px;">Let's say if superclass and subclass have one instance field named the same - var. Then casting the object will change the result. "((Superclass) subclassObj).var" gives the Superclass's instance field var. So I suppose variable names in Java are resolved by the reference type, not the actual obj type they are referencing. while method names are dynamic binding, which uses the actual obj type. So it comes the polymorphism</span></span></div></div>
+
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2015/01/20/polymorphism-variable-shadowing/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+          <div class="post-eof"></div>
+        
+      
+    </footer>
+  </article>
+
+  
+    
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:5555/2014/09/24/java-systemcurrenttimemillis/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Weishi Zeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Weishi's Engineering Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+                
+                <a class="post-title-link" href="/2014/09/24/java-systemcurrenttimemillis/" itemprop="url">
+                JAVA - System.currentTimeMillis()
+              </a>
+            
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2014-09-24T10:47:00-07:00">
+                2014-09-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2014/09/24/java-systemcurrenttimemillis/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/2014/09/24/java-systemcurrenttimemillis/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <div dir="ltr" style="text-align: left;" trbidi="on">Today, when I was trying to generate a series of random number in java code to be an database primary key, I was thinking of<br />System.currentTimeMillis()<br /><br />However, it doesn't work as the granularity is actually dependent on the OS. It might be 10 times miliseconds. Anyway, in my for loop it some times give duplicate value.<br /><br /><br />Also, I find an interesting utility in Eclipse. Let's talk about jpage next time.</div>
+
+
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2014/09/24/java-systemcurrenttimemillis/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+        
+        
+        
+        
+      
+    </footer>
+  </article>
+
+  
+</section>
+
+
+  <nav class="pagination">
+    
+    
+    
+
+
+
+    <span class="page-number current">1</span> <a class="page-number" href="/page2">2</a> <a class="extend prev" rel="next" href="/page2"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/assets/images/avatar.gif"
+               alt="Weishi Zeng" />
+          <p class="site-author-name" itemprop="name">Weishi Zeng</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">11</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+        
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              
+              
+              <span class="links-of-author-item">
+                <a href="https://github.com/WeishiZeng" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  
+  &copy;  2013 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Weishi Zeng</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://jekyllrb.com">Jekyll</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/assets/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/assets/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/assets/js/src/post-details.js?v=5.1.1"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://weishi-z.disqus.com/count.js" async></script>
+    
+
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
+

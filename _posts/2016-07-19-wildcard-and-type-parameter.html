@@ -1,0 +1,12 @@
+---
+layout: post
+title: Wildcard and Type Parameter - ? extends Number
+date: '2016-07-19T16:24:00.001-07:00'
+author: Weishi Zeng
+tags: engineering java
+modified_time: '2016-07-19T17:06:00.511-07:00'
+blogger_id: tag:blogger.com,1999:blog-3665547588863667471.post-1898875732440714867
+blogger_orig_url: http://weishizeng.blogspot.com/2016/07/wildcard-and-type-parameter.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><pre style="background-color: white;"><pre style="font-family: Menlo; font-size: 9pt;"></pre></pre><script src="https://gist.github.com/WeishiZeng/1bfc6e169ce466028553054a4adeb95b.js"></script>So,<br /><b>Integer</b> subclassed <b>Number</b>, but <b>List&lt;Integer&gt;</b><integer> is treated as a different class as to <b>List&lt;Number&gt;.&nbsp;</b></integer><br /><integer><number>Thus the following "? extends" is required in</number></integer><br /><integer><number><br /></number></integer>sumOfList(List&lt;? extends Number&gt; list)</div>

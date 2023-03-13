@@ -1,0 +1,12 @@
+---
+layout: post
+title: Polymorphism, variable shadowing/hiding
+date: '2015-01-20T16:59:00.001-08:00'
+author: Weishi Zeng
+tags: engineering java
+modified_time: '2015-01-21T15:06:22.485-08:00'
+blogger_id: tag:blogger.com,1999:blog-3665547588863667471.post-2647331638322870278
+blogger_orig_url: http://weishizeng.blogspot.com/2015/01/polymorphism-variable-shadowing.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><div><span style="color: #222222; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="background-color: white; font-size: 13px; line-height: 17.5499992370605px;">Let's say if superclass and subclass have one instance field named the same - var. Then casting the object will change the result. "((Superclass) subclassObj).var" gives the Superclass's instance field var. So I suppose variable names in Java are resolved by the reference type, not the actual obj type they are referencing. while method names are dynamic binding, which uses the actual obj type. So it comes the polymorphism</span></span></div></div>

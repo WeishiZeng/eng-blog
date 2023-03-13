@@ -1,0 +1,12 @@
+---
+layout: post
+title: 'i = i++ '
+date: '2013-12-20T19:26:00.004-08:00'
+author: Weishi Zeng
+tags: engineering
+modified_time: '2013-12-20T19:30:36.097-08:00'
+blogger_id: tag:blogger.com,1999:blog-3665547588863667471.post-4904083436202534040
+blogger_orig_url: http://weishizeng.blogspot.com/2013/12/i-i.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><b style="background-color: #faf7f1; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">The code</b><span style="background-color: #faf7f1; font-family: Arial, Helvetica, sans-serif; font-size: 16px;"></span><br /><pre style="background-color: #faf7f1; font-size: 16px;"><b>int i = 0;</b><br /><b>i = i++;</b><br /><b>System.out.println(i);</b></pre><b style="background-color: #faf7f1; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">produces the output "0" instead of "1". Why?</b><span style="background-color: #faf7f1; font-family: Arial, Helvetica, sans-serif; font-size: 16px;"></span><br /><div style="background-color: #faf7f1; font-family: Arial, Helvetica, sans-serif; font-size: 16px;"><br clear="all" /></div><hr style="background-color: #faf7f1; font-family: Arial, Helvetica, sans-serif; font-size: 16px;" /><div style="background-color: #faf7f1; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">Let's take a close look at what the line "i = i++;" does:</div><div style="background-color: #faf7f1; font-family: Arial, Helvetica, sans-serif; font-size: 16px;"></div><ol style="background-color: #faf7f1; font-family: Arial, Helvetica, sans-serif; font-size: 16px;"><li>"i++" is evaluated. The value of "i++" is the value of i before the increment happens.</li><li>As part of the evaluation of "i++", i is incremented by one. Now i has the value of 1;</li><li>The assignment is executed. i is assigned the value of "i++", which is the value of i&nbsp;<i>before</i>&nbsp;the increment - that is, 0.</li></ol><div><span style="font-family: Arial, Helvetica, sans-serif;"><br /></span></div><div><span style="font-family: Arial, Helvetica, sans-serif;"><br /></span></div><div><span style="font-family: Arial, Helvetica, sans-serif;">Source:&nbsp;</span><a href="http://www.coderanch.com/how-to/java/PostIncrementOperatorAndAssignment">http://www.coderanch.com/how-to/java/PostIncrementOperatorAndAssignment</a></div></div>
